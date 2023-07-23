@@ -1,16 +1,17 @@
 
-package ru.netology.test;
+package ru.netology.web.test;
 
 
-import org.junit.Test;
+
 import org.junit.jupiter.api.BeforeEach;
-import ru.netology.page.DashboardPage;
-import ru.netology.page.LoginPage;
+import org.junit.jupiter.api.Test;
+import ru.netology.web.page.DashboardPage;
+import ru.netology.web.page.LoginPage;
 
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.netology.data.DataHelper.*;
+import static ru.netology.web.data.DataHelper.*;
 
 
 public class MoneyTransferTest {
